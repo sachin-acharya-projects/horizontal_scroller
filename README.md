@@ -2,4 +2,4 @@
 ______________________________________
 Scroll Horizontally on scrolling vertically
 
-[Preview](https://htmlpreview.github.io/?https://github.com/sachin-acharya-projects/horizontal_scroller/main/index.html)
+[Preview](http://htmlpreview.github.io/?https://github.com/sachin-acharya-projects/horizontal_scroller/blob/main/index.html)
