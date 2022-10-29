@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--font: 'Oswald', sans-serif;
+}
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background: #222;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body > div {
+	width: 100%;
+	padding: 40px;
+	padding-top: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	color: #aaa;
+}
+
+body > div h1 {
+	font-family: var(--font);
+}
+
+main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	gap:  10px;
+	overflow: hidden;
+	/*overflow-x: scroll;*/
+}
+
+main div {
+	min-width: 350px;
+	height: 400px;
+	width: 350px !important;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	border: 4px solid #444;
+}
+
+main div img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.3s all linear;
+}
+
+main div span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px 10px;
+	background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 107.92%);
+	width: 100%;
+	height: 150px;
+
+	display: flex;
+	align-items: flex-end;
+	color: #aaa;
+	font-weight: bold;
+	font-family: var(--font);
+	font-size: 16px;
+	cursor: pointer;
+}
+
+main div img:hover {
+	transform: scale(1.1);
+}
